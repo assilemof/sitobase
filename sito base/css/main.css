@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background:url(../img/pattern6.jpg) 0 0 repeat #FFF; font-family:Geneva, Arial, Helvetica, sans-serif; margin:0; color:#333;}
+a{ text-decoration:none; color:#FF0066;}
+a:hover{text-decoration:underline; }
+
+main{ max-width:1100px; margin:40px auto; padding:30px; background:#FFF; border:solid 2px #CCC;}
+
+header { background:#59b4a3; padding:15px;}
+nav ul{list-style:none; margin:0; padding:0; height:30px;}
+nav ul ul{display:none; position:absolute; top:100%; left:0; width:100%;}
+nav ul li{ position:relative; float:left; width:214px; text-align:center;}
+nav ul li:hover a{ background:#555;}
+nav ul li:hover ul{ display:block;}
+nav ul li li{ position:relative; float:none; width:100%; border:none; }
+nav ul li a{ display:block; background:#FFF; text-transform:uppercase; text-decoration:none; color:#59b4a3; font-weight:bold; padding:12px 15px 13px;}
+nav ul li li:hover a{ background:#EEE;}
+
+#logo{ height:150px;}
+#logo img{ float:left;}
+#logo h1{ float:left; font-size:55px; margin:25px 0 0 12px; padding:0; color:#FFF;}
+
+#principale{ overflow:auto; clear:both;}
+
+#contenuto{width:70%; padding:15px 0; margin:30px 5% 30px 0; box-sizing:border-box; float:left;}
+#contenuto .articolo{ padding:20px 0 30px;}
+#contenuto  h2{ margin:0; padding:0;}
+
+
+#correlati{ background:#EEE; margin-top:30px; float:left; width:25%; padding:15px; box-sizing:border-box; }
+#correlati h3{ padding:0; margin:0;}
+#correlati ul{ list-style:none; padding:0; margin:20px 0 0;}
+#correlati ul li{ padding:8px 0; border-bottom:solid 1px #CCC;}
+#correlati ul li a{ text-decoration:none; color:#2a7e6e}
+#correlati ul li a:hover{color:#115145; text-decoration:underline;}
+
+.articolo .imgSX{ float:left; margin-right:20px; margin-bottom:10px;}
+.articolo .imgDX{ float:right; margin-left:20px; margin-bottom:10px;}
+
+#modulo{ border-top:solid 2px #2a7e6e; border-bottom:solid 2px #2a7e6e; padding:15px; background:#dee9ef}
+#modulo ul{list-style:none; padding:0; margin:0;}
+#modulo ul li{ padding:10px 0;}
+#modulo ul li label{ display:block; padding-bottom:3px; font-size:14px; font-weight:bold;}
+#modulo ul li input{font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+#modulo ul li .testo{ padding:3px; width:250px;}
+#modulo ul li textarea{ padding:3px; width:450px; height:100px;}
+#modulo ul li .pulsante{ color:#FFFFFF; background:#115145; border:solid 1px #115145; padding:7px 15px 5px; text-transform:uppercase; cursor:pointer; font-weight:bold;}
+#modulo ul li .pulsante:hover{ background:#FFF; color:#115145}
+
+#sponsor{ padding:20px 0; clear:both;}
+#sponsor ul{ list-style:none; padding:0; margin:0; overflow:auto;}
+#sponsor ul li{ float:left; text-align:center; width:33.3%}
+#sponsor ul li .partner1{ background:url(../img/logo-labfortraining.jpg) 0 0 no-repeat; display:block; height:120px; width:320px;}
+#sponsor ul li .partner2{background:url(../img/apple.jpg) 0 0 no-repeat; display:block; height:120px; width:98px; margin:0 auto;}
+#sponsor ul li .partner3{background:url(../img/microsoft.jpg) 0 0 no-repeat; display:block; height:120px; width:344px; margin:0 0 0 auto;}
+
+
+
+footer{ padding:20px 0; background:#222; color:#CCC; font-size:14px; }
+footer .content{ max-width:1160px; margin:0 auto;}
+footer .content ul{ padding:0; margin:0; list-style:none; overflow:auto;}
+footer .content ul li{ float:left;}
+footer .content ul li:last-child{ float:right;}
